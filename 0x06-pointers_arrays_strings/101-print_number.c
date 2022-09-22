@@ -5,7 +5,7 @@
  *
  * @n: input integer.
  *
- * Return: return 0 if successful
+ * Return: no return.
  */
 
 void print_number(int n)
@@ -35,5 +35,4 @@ for (; count >= 1; count /= 10)
 {
 _putchar(((m / count) % 10) + 48);
 }
-return (0);
 }
