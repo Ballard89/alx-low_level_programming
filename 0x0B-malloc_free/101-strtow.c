@@ -42,7 +42,8 @@ aout = malloc((height + 1) * sizeof(char *));
 if (aout == NULL || height == 0)
 {
 free(aout);
-return (NULL);}
+return (NULL);
+}
 for (i = a1 = 0; i < height; i++)
 {
 for (c = a1; str[c] != '\0'; c++)
